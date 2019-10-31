@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 void main() => runApp(MyApp());
+//class untuk nama di aplikasi
 class MyApp extends StatelessWidget {
   final appTitle = 'pariwisata Bantul ';
   @override
@@ -18,7 +19,7 @@ class MyApp1 extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: DefaultTabController(
-
+//untuk memberi icon pada aplikasi
         length: 3,
         child: Scaffold(
           appBar: AppBar(
@@ -42,6 +43,7 @@ class MyApp1 extends StatelessWidget {
     );
   }
 }
+//kode program untuk memberi snackBar
 class tab1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -66,6 +68,7 @@ class tab1 extends StatelessWidget {
     );
   }
 }
+//kode program untuk membuat list
 class tab2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -82,7 +85,7 @@ class tab2 extends StatelessWidget {
     );
   }
 }
-
+//kode program unuutk isi list
 class tab3 extends StatelessWidget {
   var lokasi = [
     "pantai parangtritis",
